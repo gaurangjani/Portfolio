@@ -2,7 +2,7 @@
 
 Personal portfolio site for **Gaurangkumar Jani**, Senior D365 Finance & Operations Consultant.
 
-🌐 **Live:** [gaurang-jani-portfolio.netlify.app](https://gaurang-jani-portfolio.netlify.app)
+🌐 **Live:** [gaurangjani.github.io/Portfolio](https://gaurangjani.github.io/Portfolio)
 
 ---
 
