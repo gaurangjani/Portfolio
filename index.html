@@ -170,6 +170,23 @@
   }
 
   /* ── ABOUT ── */
+  .value-props {
+    display: flex; flex-direction: column; gap: 0.7rem;
+    margin-top: 2rem; padding-top: 2rem;
+    border-top: 1px solid rgba(74,111,165,0.15);
+  }
+  .vp-item {
+    display: flex; gap: 0.75rem; align-items: flex-start;
+    font-size: 0.88rem; color: var(--ice); line-height: 1.6; font-weight: 300;
+  }
+  .vp-arrow { color: var(--accent); font-family: var(--mono); font-size: 0.78rem; flex-shrink: 0; margin-top: 0.18rem; }
+  .vp-item strong { color: var(--snow); font-weight: 500; }
+  .contact-questions {
+    font-family: var(--mono); font-size: 0.82rem;
+    color: var(--steel2); margin-bottom: 1.3rem;
+    display: flex; flex-direction: column; gap: 0.35rem;
+  }
+  .contact-questions p::before { content: '→ '; color: var(--accent); }
   .about-grid {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
@@ -478,9 +495,9 @@
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-eyebrow">Senior D365 Consultant &amp; Citizen Developer</div>
+  <div class="hero-eyebrow">Finance brain. ERP backbone.</div>
   <h1>Gaurang<br/><span class="outline">Kumar</span><br/>Jani</h1>
-  <p class="hero-sub">Chartered Accountant &amp; Microsoft Dynamics 365 Solution Architect Expert leading complex ERP implementations across renewable energy, manufacturing, and global enterprise.</p>
+  <p class="hero-sub">I don't just configure systems — I connect them to business outcomes. Chartered Accountant &amp; D365 Solution Architect Expert with 8+ years across pharmaceuticals, manufacturing, healthcare, and global enterprise.</p>
   <div class="hero-badges">
     <span class="badge">CA · ICAI</span>
     <span class="badge">MB-700 Solution Architect</span>
@@ -510,9 +527,10 @@
     <div class="ruled"></div>
     <div class="about-grid fade">
       <div class="about-text">
-        <p>I'm a Senior D365 Finance & Operations Consultant based in Cheltenham, UK, with a dual background as a Chartered Accountant (ICAI) and Microsoft Dynamics 365 Solution Architect Expert (MB-700). I've delivered end-to-end ERP implementations across renewable energy, manufacturing, IT services, healthcare, and retail sectors.</p>
+        <p>I'm a Senior D365 Finance & Operations Consultant based in Cheltenham, UK, with a dual background as a Chartered Accountant (ICAI) and Microsoft Dynamics 365 Solution Architect Expert (MB-700). I've delivered end-to-end ERP implementations across pharmaceuticals, renewable energy, manufacturing, IT services, healthcare, and retail sectors.</p>
         <p>My work spans the full project lifecycle — from requirement workshops and FRD authoring through configuration, UAT, data migration, and post go-live support. I've led rollouts across UK, Europe, Middle East, North America, and Asia Pacific.</p>
         <p>Beyond consulting, I build tools for the Microsoft ecosystem using AI-assisted development to ship products that solve real problems I encounter on the job.</p>
+        <p>I thrive where precision matters — where a misconfigured financial dimension, a broken intercompany flow, or a flawed posting profile can have real consequences. That's where I deliver clarity, stability, and systems that work the first time.</p>
         <div class="availability">Open to contracts · Remote / UK</div>
       </div>
       <div class="stats-grid">
@@ -521,6 +539,13 @@
         <div class="stat-card"><div class="stat-num">4</div><div class="stat-lbl">Microsoft certifications</div></div>
         <div class="stat-card"><div class="stat-num">7+</div><div class="stat-lbl">GitHub projects shipped</div></div>
       </div>
+    </div>
+    <div class="value-props fade">
+      <div class="vp-item"><span class="vp-arrow">→</span><div><strong>End‑to‑end ownership</strong> — blueprint → build → UAT → go‑live, with accountability at every stage</div></div>
+      <div class="vp-item"><span class="vp-arrow">→</span><div><strong>Deep finance expertise</strong> trusted by CFOs, controllers, and business leads across GL, AP, AR, Fixed Assets, Budgeting, Cash & Bank, and Project Operations</div></div>
+      <div class="vp-item"><span class="vp-arrow">→</span><div><strong>Integration leadership</strong> across Dataverse, Dual‑Write & Project Operations — including untangling master data issues that had blocked programmes for months</div></div>
+      <div class="vp-item"><span class="vp-arrow">→</span><div><strong>Stakeholder‑ready documentation</strong> — clear FRDs, design specs, and UAT packs that accelerate adoption and reduce re-work</div></div>
+      <div class="vp-item"><span class="vp-arrow">→</span><div><strong>Multi‑country rollout experience</strong> with the nuance global programmes demand across UK, Europe, Middle East, North America, and Asia Pacific</div></div>
     </div>
   </div>
 </div>
@@ -899,6 +924,11 @@
     <div class="ruled"></div>
     <div class="contact-grid fade">
       <div>
+        <div class="contact-questions">
+          <p>Scaling a D365 F&amp;O implementation?</p>
+          <p>Preparing for go‑live?</p>
+          <p>Navigating a complex integration?</p>
+        </div>
         <p class="contact-note">I'm available for remote contract engagements in the UK and globally — particularly D365 Finance, Project Operations, and multi-module implementations. Reach out via any of the channels below.</p>
         <div class="availability">Open to contracts · Remote / UK</div>
       </div>
